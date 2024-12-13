@@ -1,20 +1,25 @@
 import React, {useContext} from "react";
 import "./Talks.scss";
 import TalkCard from "../../components/talkCard/TalkCard";
-import {talkSection} from "../../portfolio";
+// import {talkSection} from "../../portfolio"; // Commented out because talkSection is removed
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Talks() {
   const {isDark} = useContext(StyleContext);
-  if (!talkSection.display) {
-    return null;
-  }
+
+  // Commented out the check for talkSection.display since talkSection is removed
+  // if (!talkSection.display) {
+  //   return null;
+  // }
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="talks">
         <div className="talk-header">
-          <h1 className="talk-header-title">{talkSection.title}</h1>
+          {/* Commented out because talkSection.title is not defined */}
+          {/* <h1 className="talk-header-title">{talkSection.title}</h1> */}
+          {/* 
           <p
             className={
               isDark
@@ -24,7 +29,9 @@ export default function Talks() {
           >
             {talkSection.subtitle}
           </p>
-          {talkSection.talks.map((talk, i) => {
+          */}
+          {/* Commented out because talkSection.talks.map is not defined */}
+          {/* {talkSection.talks.map((talk, i) => {
             return (
               <TalkCard
                 key={i}
@@ -38,7 +45,7 @@ export default function Talks() {
                 }}
               />
             );
-          })}
+          })} */}
         </div>
       </div>
     </Fade>
