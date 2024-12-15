@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/devFolio/static/css/main.bda166ef.css",
+    "main.js": "/devFolio/static/js/main.e14211ad.js",
+    "static/css/64.bba8fa55.chunk.css": "/devFolio/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/devFolio/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/devFolio/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/devFolio/static/js/769.bda0d7b7.chunk.js",
+    "static/media/senti.png": "/devFolio/static/media/senti.aa80addabd68ecdcc7bb.png",
+    "static/media/Netflix.png": "/devFolio/static/media/Netflix.141c0953048e8c17bf8f.png",
+    "static/media/canvas.png": "/devFolio/static/media/canvas.ee9b9384890ace90fbef.png",
+    "static/media/kafka.png": "/devFolio/static/media/kafka.ce38b70ea9a5a1de82cb.png",
+    "static/media/sgllogo.png": "/devFolio/static/media/sgllogo.5f954ad315ce5a09f625.png",
+    "static/media/isb.png": "/devFolio/static/media/isb.caf73ffd36991281824b.png",
+    "static/media/smsOrganizerLogo.png": "/devFolio/static/media/smsOrganizerLogo.a95df4fab1f72de96f8f.png",
+    "static/media/news.png": "/devFolio/static/media/news.ef3085dd2b2d9e067198.png",
+    "static/media/Montserrat-Regular.ttf": "/devFolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/flightticket.png": "/devFolio/static/media/flightticket.916878337ad1a9e5308c.png",
+    "static/media/erd.png": "/devFolio/static/media/erd.26f1b34ecf5836518509.png",
+    "static/media/Agustina.woff": "/devFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/intone.png": "/devFolio/static/media/intone.a50b7aa9a404839f9097.png",
+    "static/media/ibm.png": "/devFolio/static/media/ibm.5fa2b80b80b9d18ebf65.png",
+    "static/media/manOnTable.svg": "/devFolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/aws.png": "/devFolio/static/media/aws.d50bc924309e9aa165a6.png",
+    "static/media/contactMailDark.svg": "/devFolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/devFolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/jio.jpg": "/devFolio/static/media/jio.77aec1ffbc3953d94794.jpg",
+    "static/media/skill.svg": "/devFolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/resume.pdf": "/devFolio/static/media/resume.f0f733dd3cd732b39262.pdf",
+    "index.html": "/devFolio/index.html",
+    "main.bda166ef.css.map": "/devFolio/static/css/main.bda166ef.css.map",
+    "main.e14211ad.js.map": "/devFolio/static/js/main.e14211ad.js.map",
+    "64.bba8fa55.chunk.css.map": "/devFolio/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/devFolio/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/devFolio/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/devFolio/static/js/769.bda0d7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bda166ef.css",
+    "static/js/main.e14211ad.js"
+  ]
+}
