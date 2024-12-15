@@ -36,7 +36,8 @@ const socialMediaLinks = {
   github: "https://github.com/shesheerrao0606",
   linkedin: "https://www.linkedin.com/in/shesheer-rao/",
   gmail: "kokkirala.shesheer@gmail.com",
-  instagram: "https://www.instagram.com/shesheer_rao10/profilecard/?igsh=am9lZjJzbHplMGNh",
+  instagram:
+    "https://www.instagram.com/shesheer_rao10/profilecard/?igsh=am9lZjJzbHplMGNh",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -53,7 +54,6 @@ const skillsSection = {
     "⚡ Leverage cloud technologies such as AWS and Docker for scalable deployments and manage big data frameworks like Hadoop and Spark for advanced analytics.",
     "⚡ Employ advanced data analysis techniques with tools like Pandas and Scikit-learn to extract meaningful patterns and improve business performance."
   ],
-  
 
   softwareSkills: [
     // Machine Learning and Python
@@ -119,7 +119,7 @@ const skillsSection = {
     },
     {
       skillName: "GCP",
-      fontAwesomeClassname: "fab fa-google",
+      fontAwesomeClassname: "fab fa-google"
     },
     {
       skillName: "Docker",
@@ -133,9 +133,9 @@ const skillsSection = {
     // Data Visualization Tools
     {
       skillName: "Power BI",
-      fontAwesomeClassname: "fab fa-microsoft",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
-    
+
     {
       skillName: "Tableau",
       fontAwesomeClassname: "fas fa-chart-bar"
@@ -174,8 +174,6 @@ const skillsSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-
-
 // Education Section
 
 const educationInfo = {
@@ -187,8 +185,7 @@ const educationInfo = {
       subHeader: "Graduate Assistant Researcher",
       duration: "May 2024 - August 2024",
       //desc: "Developed a strong foundation in core computer science concepts and programming principles.",
-      descBullets:
-       [
+      descBullets: [
         "Collaborated with the US Department of Homeland Security to optimize the resilience of North American semiconductor and water supply chains.",
         "Developed a risk assessment framework with benchmarks for acceptable risk levels across nine supply chains, improving operational integrity and stakeholder confidence.",
         "Analyzed over 120 datasets to identify vulnerabilities and improve decision-making processes in supply chain operations.",
@@ -200,7 +197,7 @@ const educationInfo = {
       logo: require("./assets/images/jio.jpg"), // Replace with the actual logo file path
       subHeader: "Data Analyst",
       duration: "June 2021 - June 2023",
-     // desc: "Focused on leveraging advanced analytical and cloud technologies for data-driven decision-making.",
+      // desc: "Focused on leveraging advanced analytical and cloud technologies for data-driven decision-making.",
       descBullets: [
         "Worked in a team of 5 in the development of gender and apparel detection models, employing advanced machine learning and deep learning methodologies, attaining an accuracy surpassing 80%",
 
@@ -225,8 +222,6 @@ const educationInfo = {
   ]
 };
 
-
-
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -238,7 +233,7 @@ const techStack = {
     },
     {
       Stack: "Data Analysis & Visualization", // Skills like Tableau, Power BI, EDA
-      progressPercentage: "85%" 
+      progressPercentage: "85%"
     },
     {
       Stack: "Data Engineering", // ETL, Pipelines, Big Data Tools
@@ -251,8 +246,7 @@ const techStack = {
     {
       Stack: "Database Management", // SQL, NoSQL, MySQL, MongoDB
       progressPercentage: "80%"
-    },
-    
+    }
   ],
   displayCodersrank: false // Set true to display CodersRank badges; change your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -262,7 +256,6 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-
     {
       role: "Texas A&M University, Mays Business School",
       company: "2023 - 2025",
@@ -281,11 +274,10 @@ const workExperiences = {
       date: "Bachelor of Technology in Computer Science and Engineering",
       desc: "Developed a strong foundation in core computer science concepts and programming principles",
       descBullets: [
-        "Relevant Coursework : Data Structures and Algorithms, Operating Systems, Object-Oriented Programming, Computer Networking, Database Management Systems",
-
-        ]
-    },
-   /* {
+        "Relevant Coursework : Data Structures and Algorithms, Operating Systems, Object-Oriented Programming, Computer Networking, Database Management Systems"
+      ]
+    }
+    /* {
       role: "Data Analyst Intern",
       company: "Intone Networks",
       companylogo: require("./assets/images/intone.png"),
@@ -296,7 +288,7 @@ const workExperiences = {
       ]
     
     },*/
-   /* {
+    /* {
       role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
@@ -323,7 +315,7 @@ const bigProjects = {
     {
       image: require("./assets/images/smsOrganizerLogo.png"), // Add the image file path for your project logo
       projectName: "SMS Organizer",
-      projectDesc: 
+      projectDesc:
         "Developed a machine learning model to classify SMS messages into categories: Promotional, Transactional, and OTP, achieving a top accuracy of 95.83% using Linear SVC.",
       footerLink: [
         {
@@ -331,12 +323,13 @@ const bigProjects = {
           url: "https://github.com/shesheerrao0606/SMS_ORGANIZER" // Replace with the actual link to your project report or relevant resource
         }
         // Add more buttons if needed
-      ]  
+      ]
     },
     {
       image: require("./assets/images/Netflix.png"), // Add the actual image path here
       projectName: "Netflix Dashboard",
-      projectDesc: "Created an interactive Tableau dashboard analyzing Netflix content by genre, country, release year, and ratings. The dashboard provides insights into trends, distributions, and viewer preferences.",
+      projectDesc:
+        "Created an interactive Tableau dashboard analyzing Netflix content by genre, country, release year, and ratings. The dashboard provides insights into trends, distributions, and viewer preferences.",
       footerLink: [
         {
           name: "View  Dashboard",
@@ -344,11 +337,12 @@ const bigProjects = {
         }
       ]
     },
-    
+
     {
       image: require("./assets/images/erd.png"),
       projectName: "ETL and Data Aggregation Project",
-      projectDesc: "Built an ETL pipeline using AWS and MongoDB to clean, transform, and organize raw customer, order, and product data. Created JSON-based aggregates to analyze customer order history and product purchases, showcasing advanced SQL techniques and cloud data management.",
+      projectDesc:
+        "Built an ETL pipeline using AWS and MongoDB to clean, transform, and organize raw customer, order, and product data. Created JSON-based aggregates to analyze customer order history and product purchases, showcasing advanced SQL techniques and cloud data management.",
       footerLink: [
         {
           name: "Github Link",
@@ -359,7 +353,8 @@ const bigProjects = {
     {
       image: require("./assets/images/canvas.png"),
       projectName: "Product Canvas - DeliverEase",
-      projectDesc: "DeliverEase is a conceptual platform designed to revolutionize food delivery by offering real-time comparisons of prices, wait times, and promotions across multiple services like Uber Eats, DoorDash, and Grubhub. The platform aims to provide users with cost-effective, personalized choices through a seamless, unified interface.",
+      projectDesc:
+        "DeliverEase is a conceptual platform designed to revolutionize food delivery by offering real-time comparisons of prices, wait times, and promotions across multiple services like Uber Eats, DoorDash, and Grubhub. The platform aims to provide users with cost-effective, personalized choices through a seamless, unified interface.",
       footerLink: [
         {
           name: "Github Link",
@@ -370,7 +365,8 @@ const bigProjects = {
     {
       image: require("./assets/images/kafka.png"),
       projectName: "Stock Market Data Engineering",
-      projectDesc: "A real-time stock market data engineering project utilizing Kafka to process and analyze large-scale financial data streams. The system is designed to provide high-throughput, low-latency data pipelines for monitoring and decision-making.",
+      projectDesc:
+        "A real-time stock market data engineering project utilizing Kafka to process and analyze large-scale financial data streams. The system is designed to provide high-throughput, low-latency data pipelines for monitoring and decision-making.",
       footerLink: [
         {
           name: "Github Link",
@@ -379,39 +375,42 @@ const bigProjects = {
       ]
     },
     {
-  image: require("./assets/images/flightticket.png"),
-  projectName: "Flight Fare Prediction",
-  projectDesc: "A web application to predict flight fares using machine learning models. The project enables users to input travel details and get real-time fare predictions, offering insights for smarter travel decisions.",
-  footerLink: [
+      image: require("./assets/images/flightticket.png"),
+      projectName: "Flight Fare Prediction",
+      projectDesc:
+        "A web application to predict flight fares using machine learning models. The project enables users to input travel details and get real-time fare predictions, offering insights for smarter travel decisions.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/shesheerrao0606/shesheerflightfare.github.io"
+        }
+      ]
+    },
     {
-      name: "Github",
-      url: "https://github.com/shesheerrao0606/shesheerflightfare.github.io"
-    }
-  ]
-},
-{
-  image: require("./assets/images/senti.png"),
-  projectName: "Sentiment Analysis",
-  projectDesc: "A machine learning project designed to analyze and predict the sentiment of textual data. The application processes user inputs, leveraging NLP techniques to determine positive, negative, or neutral sentiments.",
-  footerLink: [
+      image: require("./assets/images/senti.png"),
+      projectName: "Sentiment Analysis",
+      projectDesc:
+        "A machine learning project designed to analyze and predict the sentiment of textual data. The application processes user inputs, leveraging NLP techniques to determine positive, negative, or neutral sentiments.",
+      footerLink: [
+        {
+          name: "View Repository",
+          url: "https://github.com/shesheerrao0606/Sentiment-Analysis"
+        }
+      ]
+    },
     {
-      name: "View Repository",
-      url: "https://github.com/shesheerrao0606/Sentiment-Analysis"
+      image: require("./assets/images/news.png"),
+      projectName: "News Application With AI Voice Assistant",
+      projectDesc:
+        "A cutting-edge news application integrated with an AI-powered voice assistant that provides users with hands-free access to the latest news, tailored recommendations, and interactive voice commands.",
+      footerLink: [
+        {
+          name: "View Repository",
+          url: "https://github.com/shesheerrao0606/News-Application-With-AI-Voice-Assistant"
+        }
+      ]
     }
-  ]
-},
-{
-  image: require("./assets/images/news.png"),
-  projectName: "News Application With AI Voice Assistant",
-  projectDesc: "A cutting-edge news application integrated with an AI-powered voice assistant that provides users with hands-free access to the latest news, tailored recommendations, and interactive voice commands.",
-  footerLink: [
-    {
-      name: "View Repository",
-      url: "https://github.com/shesheerrao0606/News-Application-With-AI-Voice-Assistant"
-    }
-  ]
-}
-],
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -463,7 +462,6 @@ const achievementSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Blogs Section
 
